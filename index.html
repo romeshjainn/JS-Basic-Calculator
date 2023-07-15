@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <p id="result">Result Here</p>
+        </div>
+        <input type="number" id="num-a" placeholder="Number here">
+        <input type="number" id="num-b" placeholder="Number here">
+        <div class="box">
+            <select id="op">
+                <option value="+">Add</option>
+                <option value="-">Minus</option>
+                <option value="*">Multiply</option>
+                <option value="/">Divide</option>
+            </select>
+            <button id="cal">Calculate</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("cal").onclick = function () {
+            const numA = Number(document.getElementById("num-a").value);
+            const numB = Number(document.getElementById("num-b").value);
+            const op = document.getElementById("op").value;
+
+            if (op === "+") {
+                result.innerText = numA + numB;
+            }
+            else if (op === "*") {
+                result.innerText = numA * numB;
+
+            }
+            else if (op === "-") {
+                result.innerText = numA - numB;
+
+            }
+            else if (op === "/") {
+                result.innerText = numA / numB;
+
+            }
+        };
+    </script>
+</body>
+
+</html>
