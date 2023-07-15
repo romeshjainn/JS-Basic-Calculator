@@ -1,1 +1,1 @@
-# JS-Basic-Calculator
+An aesthetically pleasing calculator built with HTML, CSS, and JavaScript, featuring a sleek design and intuitive interface. Perform basic arithmetic operations effortlessly with style and elegance. +-*/ operations included.
