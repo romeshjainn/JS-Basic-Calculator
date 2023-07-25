@@ -16,7 +16,7 @@ body {
     display: grid;
     place-items: center;
     height: 100vh;
-    background-image: url(bg.png);
+    background-image: url(https://i.pinimg.com/1200x/0e/f0/d8/0ef0d88f468b4d68d8da02e5db11bb96.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
